@@ -24,6 +24,8 @@ Asignatura: **Análisis de Algoritmos**
 Ordena de menor a mayor las siguientes funciones (asintóticamente).  
 Si dos son del mismo orden, indícalo.
 
+ log(n)<(log2n)^2<sqrt(n)<n/log2(n)<nlog(n)<n<n^1.5<n^2<2^n<n!
+
 
 ![Logo](https://lh3.googleusercontent.com/pw/AP1GczOgpGBrm2bFBeJEo7b9KpmVW1WB0J7_4xhzREWWmsjd8ejMOn5_QmXnv9ji2z7BlyVAVmYl0jOEs01Vmf9-wEbyuZo7S5DK2xYmuN-cOR2my9LOms5kM5FlcbG3I19k3Xc8nwGVtFKco2O2QXg4DLUn=w128-h290-s-no?authuser=0)
 
@@ -43,6 +45,12 @@ Algoritmos posibles:
 - Floyd–Warshall (triple bucle)  
 - Backtracking/Fuerza bruta  
 
+
+al comparar las funciones Floyd–Warshall (triple bucle) y Insertion/Bubble (peor caso), el Floyd–Warshall tiene un tiempo mejor cuando n vale 25
+al comparar Floyd–Warshall (triple bucle) y Backtracking/Fuerza bruta vimos que el Floyd–Warshall (triple bucle) es el mas rapido cuando n vale 4
+
+haciendo estas dos comparaciones obtenemos como resultado que el algoritmo Floyd–Warshall (triple bucle) es mas rapido, por ende tiene mejor rendimiento 
+y podriamos decir que gasta menos memoria y consume menos tiempo de ejecucion
 ---
 
 ### Punto 3 (25 pts) — Ejercicio lógico
