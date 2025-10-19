@@ -24,7 +24,7 @@ Asignatura: **Análisis de Algoritmos**
 Ordena de menor a mayor las siguientes funciones (asintóticamente).  
 Si dos son del mismo orden, indícalo.
 
- log(n)<(log2n)^2<sqrt(n)<n/log2(n)<nlog(n)<n<n^1.5<n^2<2^n<n!
+ log(n) < (log₂n)² < √n < n/log₂(n) < n < nlog(n) < n¹·⁵ < n² < 2ⁿ < n!
 
 
 ![Logo](https://lh3.googleusercontent.com/pw/AP1GczOgpGBrm2bFBeJEo7b9KpmVW1WB0J7_4xhzREWWmsjd8ejMOn5_QmXnv9ji2z7BlyVAVmYl0jOEs01Vmf9-wEbyuZo7S5DK2xYmuN-cOR2my9LOms5kM5FlcbG3I19k3Xc8nwGVtFKco2O2QXg4DLUn=w128-h290-s-no?authuser=0)
@@ -57,6 +57,10 @@ y podriamos decir que gasta menos memoria y consume menos tiempo de ejecucion
 #### Isaac y los intervalos mágicos
 
 Isaac, convencido de que tiene un talento especial para los números, asegura que puede contar al instante cuántos primos existen en cualquier rango que le propongan sus amigos. Para comprobarlo, ellos le entregan una lista con N pares de números (a,b), y él debe responder de inmediato cuántos números primos hay en cada intervalo. A partir de esta historia, elabora el análisis necesario para resolver el problema y define claramente qué se recibe como entrada, qué se debe producir como salida y qué lógica se requiere para verificar la afirmación de Isaac. 
+
+La solución implementada alcanza complejidad casi óptima tanto en tiempo como en espacio. El preprocesamiento O(M log log M) es eficiente para la tarea requerida, y las consultas O(1) satisfacen el requisito de respuesta inmediata. El algoritmo demuestra un balance apropiado entre teoría y práctica, siendo viable para rangos hasta M ≈ 10⁸ en hardware moderno.
+
+La estrategia sigue el principio de "pagar una vez, usar muchas veces", característico de problemas con múltiples consultas sobre datos estáticos.
 
 ---
 
